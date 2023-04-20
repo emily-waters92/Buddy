@@ -30,7 +30,7 @@ export default function CreateProfileForm() {
   const dispatch = useAppDispatch()
   const navigate = useNavigate()
   const fake = {
-    first_name: 'Rangga',
+    first_name: 'Ado',
     last_name: 'Raditya',
     user_name: 'ranggagokil',
     email: 'rangga@gmail.com',
@@ -42,9 +42,9 @@ export default function CreateProfileForm() {
     english_level: 'Fluent English',
     sharing_one: ' I would love to meet locals in Wellington',
     sharing_two: ' Keen to go traveling together',
-    sharing_three: '',
+    sharing_three: 'Hugs',
     description:
-      'Hey there, I am Rangga Raditya, and I amm from Singapore. I currently live in Woodlands, and I am an international user on this platform. I speak English fluently, and I am really excited to learn about new cultures. In particular, I am fascinated by the culture of New Zealand and would love to explore and learn more about it.',
+      'Hey there, I am Ado, and I amm from Singapore. I currently live in Woodlands, and I am an international user on this platform. I speak English fluently, and I am really excited to learn about new cultures. In particular, I am fascinated by the culture of New Zealand and would love to explore and learn more about it.',
     profile_img: '',
   } as User
 
